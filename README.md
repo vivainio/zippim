@@ -20,7 +20,7 @@ Zippim is a Go application (read: single .exe with no dependencies).
 - Fetch the archive to c:\pkg\\_download
 - Unzip it to c:\pkg\$PACKAGE_NAME (where $PACKAGE_NAME
 is derived from the file name or specified at command line)
-- Scan the unpacked archive for .exe files and create a .cmd launcher to c:\pkg\bin
+- Scan the unpacked archive for .exe files and create .cmd launchers to c:\pkg\bin
 
 Usage:
 
