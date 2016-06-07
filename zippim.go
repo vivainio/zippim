@@ -40,7 +40,7 @@ func getRelDir(suffix string) string {
 }
 
 func root() string {
-	e := os.Getenv("ZIPPM_ROOT")
+	e := os.Getenv("ZIPPIM_ROOT")
 	if len(e) > 0 {
 		return e
 	}
@@ -74,13 +74,13 @@ func makeLauncher(launcherDir string, tgt string) {
 
 func makeLaunchers(startPath string, linkPath string) {
 	visitor := func(pth string, fileinfos []os.FileInfo) bool {
-		fmt.Printf("Link: %s\n", pth)
 		for _, f := range fileinfos {
 			name := f.Name()
-			fmt.Printf("  %s\n", name)
 			if matched, _ := regexp.MatchString(".*exe$", name); matched {
 				tgtpath := filepath.Join(pth, name)
 				makeLauncher(linkPath, tgtpath)
+				fmt.Printf("Launcher to: %s\n", tgtpath)
+
 			}
 		}
 		return true
@@ -96,7 +96,7 @@ func getPackageNameFromFilename(fname string) string {
 }
 
 func install(pkg string, pkgname string) {
-	fmt.Printf("Installing %s", pkg)
+	fmt.Printf("Downloading %s\n", pkg)
 	resp, _ := http.Get(pkg)
 	defer resp.Body.Close()
 	body, _ := ioutil.ReadAll(resp.Body)
