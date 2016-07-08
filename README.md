@@ -41,7 +41,12 @@ Downloading http://www.scintilla.org/wscite366.zip
 Launcher to: C:\pkg\scite\wscite\SciTE.exe
 ```
 
-Status: "seems to work". I will make the binary available when I have used it for a
-while.
+Status: works fine.
+
+To upgrade, just use zippim itself, e.g.
+
+```
+zippim get https://github.com/vivainio/zippim/releases/download/v0.2/zippim.exe
+```
 
 License: MIT
