@@ -49,4 +49,6 @@ To upgrade, just use zippim itself, e.g.
 zippim get https://github.com/vivainio/zippim/releases/download/v0.2/zippim.exe
 ```
 
+Note how you can download .exe files directly. They get placed directly to c:\pkg\bin
+
 License: MIT
