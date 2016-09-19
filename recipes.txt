@@ -1,0 +1,2 @@
+zippim get http://www.randyrants.com/sharpkeys35.zip
+zippim get https://github.com/cmderdev/cmder/releases/download/v1.3.0/cmder_mini.zip
