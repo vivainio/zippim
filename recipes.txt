@@ -2,3 +2,4 @@ zippim get http://www.randyrants.com/sharpkeys35.zip
 zippim get https://github.com/cmderdev/cmder/releases/download/v1.3.0/cmder_mini.zip
 zippim get https://github.com/vivainio/rraf/releases/download/v0.2.0/rraf.exe
 zippim get https://download.sysinternals.com/files/Handle.zip
+zippim get https://github.com/fsprojects/Paket/releases/download/5.122.3/paket.exe
