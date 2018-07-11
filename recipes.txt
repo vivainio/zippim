@@ -3,3 +3,4 @@ zippim get https://github.com/cmderdev/cmder/releases/download/v1.3.0/cmder_mini
 zippim get https://github.com/vivainio/rraf/releases/download/v0.2.0/rraf.exe
 zippim get https://download.sysinternals.com/files/Handle.zip
 zippim get https://github.com/fsprojects/Paket/releases/download/5.122.3/paket.exe
+zippim get https://github.com/jgm/pandoc/releases/download/2.2.1/pandoc-2.2.1-windows-x86_64.zip
