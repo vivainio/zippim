@@ -1,5 +1,9 @@
 # zippim: the trivial package manager
 
+## Status
+
+This is deprecated in favor of [zipget](https://github.com/vivainio/zipget-rs)
+
 ## Vision
 
 All Windows "package management" should do is downloading a zip file,
